@@ -1,0 +1,29 @@
+idea:
+  title: 'Probing the Limits: Adversarial and OOD Robustness of Neural Thicket Ensembles'
+  domain: machine_learning
+  hypothesis: 'Neural thicket ensembles constructed from random perturbations around
+    a pretrained model improve robustness compared to single models, but their vulnerability
+    to adversarial and out-of-distribution (OOD) inputs depends on the diversity and
+    independence of the sampled experts. Explicitly encouraging diversity, such as
+    via orthogonal perturbations or adversarially selected directions, will further
+    enhance ensemble resilience.
+
+    '
+  background:
+    description: "If we build ensembles from random perturbations around a pretrained\
+      \ model, do they stand up to tricky attacks or weird new data? We\u2019ll stress-test\
+      \ these ensembles and seek ways to make them even more robust.\n"
+    papers:
+    - description: '"Neural Thickets: Diverse Task Experts Are Dense Around Pretrained
+        Weights." Gan, Y., & Isola, P. (2026).'
+    - description: '"Ensemble-in-One: Ensemble Learning within Random Gated Networks
+        for Enhanced Adversarial Robustness." Cai, Y., Ning, X., Yang, H., & Wang,
+        Y. (2023). AAAI Conference on Artificial Intelligence.'
+  metadata:
+    source: IdeaHub
+    source_url: https://hypogenic.ai/ideahub/idea/RUwUnx6Y30XWgTbH2jy0
+    idea_id: probing_the_limits__adversaria_20260323_032100_2343c5f0
+    created_at: '2026-03-23T03:21:00.671655'
+    status: submitted
+    github_repo_name: adv-ood-robustness-6bad-codex
+    github_repo_url: https://github.com/Hypogenic-AI/adv-ood-robustness-6bad-codex
