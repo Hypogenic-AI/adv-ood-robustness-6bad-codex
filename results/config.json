@@ -1,0 +1,30 @@
+{
+  "seed": 42,
+  "data_root": "datasets",
+  "results_dir": "results",
+  "model_dir": "results/models",
+  "plots_dir": "results/plots",
+  "num_workers": 8,
+  "pin_memory": true,
+  "train_batch_size": 128,
+  "eval_batch_size": 256,
+  "epochs": 8,
+  "lr": 0.1,
+  "weight_decay": 0.0005,
+  "momentum": 0.9,
+  "label_smoothing": 0.05,
+  "ensemble_size": 6,
+  "perturb_sigma": 0.015,
+  "bn_recal_batches": 100,
+  "grad_direction_batches": 6,
+  "pgd_eps_list": [
+    0.00784313725490196,
+    0.01568627450980392,
+    0.03137254901960784
+  ],
+  "pgd_alpha": 0.00784313725490196,
+  "pgd_steps": 10,
+  "robust_eval_size": 2000,
+  "bootstrap_samples": 3000,
+  "ece_bins": 15
+}

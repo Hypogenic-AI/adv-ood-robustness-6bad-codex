@@ -1,0 +1,28 @@
+\section{Methodology}
+\label{sec:methodology}
+
+\para{Problem setup.} We study whether perturbation-generated ensembles around one pretrained model improve robustness to adversarial and OOD shifts. Let $f_{\vtheta}(\vx)$ be a classifier with parameters $\vtheta$. For an ensemble with $M$ experts, we construct perturbed parameters
+\begin{equation}
+\vtheta_m = \vtheta_0 + \sigma \vd_m, \quad m=1,\ldots,M,
+\end{equation}
+where $\vtheta_0$ is the pretrained checkpoint, $\sigma=0.015$, and $\vd_m$ is a direction vector defined by one of three strategies. Ensemble prediction uses probability averaging,
+\begin{equation}
+p(y\mid\vx)=\frac{1}{M}\sum_{m=1}^{M} p_m(y\mid\vx).
+\end{equation}
+
+\para{Datasets and preprocessing.} In-distribution (ID) data is CIFAR-10 with 50{,}000 training and 10{,}000 test images. OOD data is SVHN (cropped digits) test split with 26{,}032 images. CIFAR-10 training uses random crop (padding 4) and horizontal flip. All evaluation sets use tensor conversion only, with pixel values in $[0,1]$ and no dataset mean/std normalization.
+
+\para{Base model and training.} We use a CIFAR-adapted ResNet-18 (3\,$\times$\,3 stem, no maxpool). Training uses SGD with momentum 0.9, weight decay $5\times10^{-4}$, initial learning rate 0.1 with cosine decay, label smoothing 0.05, batch size 128, and 8 epochs. Mixed precision is enabled. Global seed is 42.
+
+\para{Ensemble construction.} We compare four methods:
+\begin{itemize}[leftmargin=*,itemsep=0pt,topsep=0pt]
+    \item \textbf{Single}: the unperturbed baseline model.
+    \item \textbf{Random}: Gaussian random normalized directions.
+    \item \textbf{Orthogonal}: random directions orthogonalized with Gram--Schmidt in flattened weight space.
+    \item \textbf{Adversarial}: directions derived from per-batch loss gradients, then orthogonalized.
+\end{itemize}
+All ensemble methods use $M=6$ experts and per-expert batch-normalization recalibration.
+
+\para{Evaluation protocol.} We report clean accuracy, expected calibration error (ECE, 15 bins), and negative log-likelihood (NLL) on CIFAR-10 test. Adversarial robustness is measured by $\ell_{\infty}$ PGD with 10 steps at $\epsilon\in\{2/255,4/255,8/255\}$. For runtime control, robust evaluation uses the first 2{,}000 CIFAR-10 test samples. OOD detection compares CIFAR-10 test (ID positive) vs SVHN test using max-softmax confidence, and reports AUROC, AUPR, and FPR95.
+
+\para{Statistical analysis.} We use paired bootstrap (3{,}000 resamples) for primary method differences and report 95\% confidence intervals with $p$-values. We also compute pairwise disagreement and pairwise error correlation among experts, and evaluate Spearman correlation between disagreement and robustness/OOD metrics.

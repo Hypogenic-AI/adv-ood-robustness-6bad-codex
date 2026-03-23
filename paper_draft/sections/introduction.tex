@@ -1,0 +1,20 @@
+\section{Introduction}
+\label{sec:introduction}
+
+Adversarial and distribution-shift failures remain a practical barrier for deploying image classifiers in high-stakes settings. Deep ensembles improve uncertainty quality, but training many independent models is expensive \citep{lakshminarayanan2017deep}. Neural thicket style methods suggest a cheaper alternative: sample diverse experts around one pretrained solution in weight space \citep{gan2026neuralthickets,mehrtash2020pep}.
+
+\para{{\bf why is this still unresolved?}} Existing studies show that diversity can help uncertainty estimation, but the link between perturbation-generated diversity and robustness is not settled under a controlled adversarial + OOD protocol \citep{xia2022usefulness,wei2020xensemble}. In particular, it is unclear whether structured perturbation directions are better than random directions when ensemble size and perturbation scale are fixed.
+
+We examine this question using one CIFAR-10 ResNet-18 base model and three perturbation strategies: random, orthogonal, and adversarial-direction perturbations. We evaluate clean accuracy, calibration, PGD robustness at $\epsilon\in\{2/255,4/255,8/255\}$, and OOD detection on SVHN. This design isolates the effect of direction strategy while keeping architecture, data, and expert count constant.
+
+Our key quantitative result is narrow but clear. Random perturbation ensembling improves PGD@8/255 from $0.05\%$ to $0.50\%$ (absolute $+0.45$ points, 95\% CI $[+0.15,+0.80]$), while reducing clean accuracy from $88.28\%$ to $86.99\%$. Orthogonal directions do not significantly improve over random at PGD@8/255 ($p=0.599$), and adversarial-direction perturbations degrade calibration and robustness.
+
+Our contributions are:
+\begin{itemize}[leftmargin=*,itemsep=0pt,topsep=0pt]
+    \item We conduct a controlled robustness benchmark for perturbation-based thicket ensembles across clean, adversarial, OOD, and calibration metrics.
+    \item We compare random, orthogonal, and adversarial-direction perturbation strategies under matched ensemble budget ($M=6$) and perturbation scale ($\sigma=0.015$).
+    \item We provide bootstrap confidence intervals and hypothesis tests for primary robustness claims, including negative findings.
+    \item We show that larger disagreement alone does not predict better robustness or OOD separation in this setup.
+\end{itemize}
+
+\para{Paper organization.} \secref{sec:related_work} reviews prior work. \secref{sec:methodology} describes datasets, models, and protocol. \secref{sec:results} presents quantitative results and statistical tests. \secref{sec:discussion} discusses interpretation and limitations, and \secref{sec:conclusion} concludes.

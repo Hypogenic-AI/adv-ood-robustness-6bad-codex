@@ -1,0 +1,12 @@
+\section{Discussion}
+\label{sec:discussion}
+
+\para{Interpreting the main outcome.} The results support a narrow claim: perturbation ensembling can improve robustness under stronger attack, but the gain is modest and does not generalize across all threat levels. At PGD@8/255, random perturbations help relative to a single model, yet all methods remain near-collapse in absolute terms. This indicates that post-hoc ensembling alone is not a substitute for robust training.
+
+\para{{\bf what did structured diversity miss?}} Orthogonal and adversarial direction design did not outperform random perturbations under fixed $\sigma=0.015$ and $M=6$. The adversarial-direction method produced very high disagreement but worse calibration and lower clean accuracy. This suggests that diversity must be constrained by local predictive quality; maximizing disagreement without such constraints can move experts into poorly calibrated regions.
+
+\para{Practical implications.} For teams that already have a strong pretrained checkpoint, random perturbation ensembling is a low-effort option that can produce small robustness gains under severe attack. However, the clean-accuracy penalty and weak absolute robust accuracy mean this approach should be treated as a supplementary defense, not a primary safeguard.
+
+\para{Limitations.} Our study uses one base-training seed and one perturbation scale in the final comparison, evaluates PGD on a 2{,}000-sample subset for runtime control, and uses only SVHN as OOD data. We also do not include AutoAttack or adversarially trained baselines in the final table. These constraints limit external validity and likely underestimate uncertainty across training runs.
+
+\para{Broader implications.} The central lesson is methodological: useful diversity is not equivalent to large diversity. Robustness-oriented expert generation likely requires explicit constraints or objectives that preserve clean decision quality while spreading gradients and errors in meaningful directions.

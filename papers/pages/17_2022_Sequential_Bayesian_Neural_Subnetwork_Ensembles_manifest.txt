@@ -1,0 +1,10 @@
+PDF: papers/17_2022_Sequential_Bayesian_Neural_Subnetwork_Ensembles.pdf
+Total pages: 13
+Pages per chunk: 3
+
+Chunks:
+  17_2022_Sequential_Bayesian_Neural_Subnetwork_Ensembles_chunk_001.pdf: pages 1-3
+  17_2022_Sequential_Bayesian_Neural_Subnetwork_Ensembles_chunk_002.pdf: pages 4-6
+  17_2022_Sequential_Bayesian_Neural_Subnetwork_Ensembles_chunk_003.pdf: pages 7-9
+  17_2022_Sequential_Bayesian_Neural_Subnetwork_Ensembles_chunk_004.pdf: pages 10-12
+  17_2022_Sequential_Bayesian_Neural_Subnetwork_Ensembles_chunk_005.pdf: page 13

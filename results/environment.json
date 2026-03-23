@@ -1,0 +1,12 @@
+{
+  "python": "3.12.8 (main, Dec 19 2024, 14:33:20) [Clang 18.1.8 ]",
+  "torch": "2.10.0+cu128",
+  "torchvision": "0.25.0+cu128",
+  "cuda_available": true,
+  "gpu": {
+    "device_count": 2,
+    "name": "NVIDIA GeForce RTX 3090",
+    "memory_total_gb": 23.6
+  },
+  "timestamp": "2026-03-23T03:50:21.960825"
+}

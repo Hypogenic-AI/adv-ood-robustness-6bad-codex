@@ -1,0 +1,50 @@
+{
+  "comparisons": {
+    "clean_random_vs_single": {
+      "difference": -0.012900000000000023,
+      "ci95_low": -0.017199999999999993,
+      "ci95_high": -0.008600000000000052,
+      "p_value": 0.0
+    },
+    "clean_orth_vs_random": {
+      "difference": 0.00029999999999996696,
+      "ci95_low": -0.000500000000000056,
+      "ci95_high": 0.0010999999999999899,
+      "p_value": 0.5426666666666666
+    },
+    "clean_adv_vs_random": {
+      "difference": -0.02970000000000006,
+      "ci95_low": -0.0343,
+      "ci95_high": -0.025399999999999978,
+      "p_value": 0.0
+    },
+    "pgd8_random_vs_single": {
+      "difference": 0.0045000000000000005,
+      "ci95_low": 0.0015,
+      "ci95_high": 0.008,
+      "p_value": 0.004
+    },
+    "pgd8_orth_vs_random": {
+      "difference": 0.001,
+      "ci95_low": -0.002,
+      "ci95_high": 0.004,
+      "p_value": 0.5993333333333334
+    },
+    "pgd8_adv_vs_random": {
+      "difference": -0.005,
+      "ci95_low": -0.0085,
+      "ci95_high": -0.002,
+      "p_value": 0.0
+    }
+  },
+  "diversity_correlation": {
+    "spearman_disagreement_vs_ood_auroc": {
+      "rho": -0.19999999999999998,
+      "p_value": 0.8
+    },
+    "spearman_disagreement_vs_pgd8_acc": {
+      "rho": -0.39999999999999997,
+      "p_value": 0.6
+    }
+  }
+}

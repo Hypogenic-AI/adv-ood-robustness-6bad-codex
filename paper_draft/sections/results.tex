@@ -1,0 +1,30 @@
+\section{Results}
+\label{sec:results}
+
+\para{Overall performance.} \tabref{tab:main_results} reports clean, calibration, OOD, and adversarial metrics for all methods. The single model has the best clean accuracy (0.8828), ECE (0.0350), and NLL (0.3821). Random and orthogonal perturbation ensembles improve strong-attack robustness at PGD@8/255 (0.0050 and 0.0060) relative to the single model (0.0005), but both reduce clean accuracy by about 1.3 points.
+
+\input{tables/main_results}
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=0.95\linewidth]{figures/method_comparison_key_metrics.png}
+    \caption{Comparison of key metrics across methods. Perturbation ensembles shift the clean--robustness trade-off: small gains under stronger attack come with clean-performance degradation.}
+    \label{fig:key_metrics}
+\end{figure}
+
+\para{Statistical tests for primary hypotheses.} \tabref{tab:stats} shows bootstrap inference for predefined comparisons. Random perturbation ensembling improves PGD@8/255 over single by $+0.0045$ (95\% CI $[+0.0015,+0.0080]$, $p=0.004$), supporting a limited version of H1 at high attack strength. Orthogonal directions are not better than random ($p=0.599$), so H2 is not supported. Adversarial-direction perturbations are worse than random (difference $-0.0050$, $p<0.001$), refuting H3 in this setting.
+
+\input{tables/stat_tests}
+
+\para{Diversity does not imply robustness.} \tabref{tab:diversity} shows that adversarial-direction perturbations produce much larger disagreement (0.2125) and much lower error correlation (0.4922) than random or orthogonal methods. However, this diversity increase does not improve robustness or OOD detection. Spearman analysis also fails to show positive association between disagreement and outcomes (disagreement vs OOD AUROC: $\rho=-0.20$, $p=0.8$; disagreement vs PGD@8/255: $\rho=-0.40$, $p=0.6$), so H4 is not supported.
+
+\input{tables/diversity}
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=0.95\linewidth]{figures/diversity_correlations.png}
+    \caption{Correlation diagnostics between diversity and robustness/OOD metrics across methods. Larger disagreement does not map to better robustness in this experiment.}
+    \label{fig:diversity_corr}
+\end{figure}
+
+\para{Runtime and reproducibility.} Full evaluation after checkpoint load takes 5.68 minutes on two RTX 3090 GPUs (24GB each), with fixed method seeds \{42, 101, 202, 303\}. This makes perturbation ensembling operationally lightweight, but the absolute robust accuracies remain very low ($<1\%$ at PGD@8/255) for all non-adversarially-trained methods.

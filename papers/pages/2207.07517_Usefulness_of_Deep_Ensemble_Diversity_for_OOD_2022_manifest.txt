@@ -1,0 +1,8 @@
+PDF: papers/2207.07517_Usefulness_of_Deep_Ensemble_Diversity_for_OOD_2022.pdf
+Total pages: 8
+Pages per chunk: 3
+
+Chunks:
+  2207.07517_Usefulness_of_Deep_Ensemble_Diversity_for_OOD_2022_chunk_001.pdf: pages 1-3
+  2207.07517_Usefulness_of_Deep_Ensemble_Diversity_for_OOD_2022_chunk_002.pdf: pages 4-6
+  2207.07517_Usefulness_of_Deep_Ensemble_Diversity_for_OOD_2022_chunk_003.pdf: pages 7-8

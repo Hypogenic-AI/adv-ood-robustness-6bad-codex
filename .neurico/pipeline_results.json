@@ -1,0 +1,27 @@
+{
+  "success": true,
+  "stages": {
+    "resource_finder": {
+      "success": true,
+      "completion_marker": "/workspaces/adv-ood-robustness-6bad-codex/.resource_finder_complete",
+      "outputs": {
+        "literature_review": "/workspaces/adv-ood-robustness-6bad-codex/literature_review.md",
+        "resources_catalog": "/workspaces/adv-ood-robustness-6bad-codex/resources.md",
+        "papers_dir": "/workspaces/adv-ood-robustness-6bad-codex/papers",
+        "datasets_dir": "/workspaces/adv-ood-robustness-6bad-codex/datasets",
+        "code_dir": "/workspaces/adv-ood-robustness-6bad-codex/code"
+      },
+      "log_file": "/workspaces/adv-ood-robustness-6bad-codex/logs/resource_finder_codex.log",
+      "transcript_file": "/workspaces/adv-ood-robustness-6bad-codex/logs/resource_finder_codex_transcript.jsonl",
+      "elapsed_time": 686.0060503482819
+    },
+    "experiment_runner": {
+      "success": true,
+      "return_code": 0,
+      "elapsed_time": 1536.7801418304443,
+      "log_file": "/workspaces/adv-ood-robustness-6bad-codex/logs/execution_codex.log",
+      "transcript_file": "/workspaces/adv-ood-robustness-6bad-codex/logs/execution_codex_transcript.jsonl"
+    }
+  },
+  "work_dir": "/workspaces/adv-ood-robustness-6bad-codex"
+}

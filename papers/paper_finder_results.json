@@ -1,0 +1,249 @@
+{
+  "success": true,
+  "total": 27,
+  "papers": [
+    {
+      "title": "Robust Deep Learning Ensemble Against Deception",
+      "year": 2020,
+      "authors": "Wenqi Wei, Ling Liu",
+      "url": "https://www.semanticscholar.org/paper/16d05dc9780044ee6ba2a186c8d3b55115b56c22",
+      "relevance": 2,
+      "abstract": "Deep neural network (DNN) models are known to be vulnerable to maliciously crafted adversarial examples and to out-of-distribution inputs drawn sufficiently far away from the training data. How to protect a machine learning model against deception of both types of destructive inputs remains an open challenge. This article presents XEnsemble, a diversity ensemble verification methodology for enhancing the adversarial robustness of DNN models against deception caused by either adversarial examples or out-of-distribution inputs. XEnsemble by design has three unique capabilities. First, XEnsemble builds diverse input denoising verifiers by leveraging different data cleaning techniques. Second, XEnsemble develops a disagreement-diversity ensemble learning methodology for guarding the output of the prediction model against deception. Third, XEnsemble provides a suite of algorithms to combine input verification and output verification to protect the DNN prediction models from both adversarial examples and out of distribution inputs. Evaluated using 11 popular adversarial attacks and two representative out-of-distribution datasets, we show that XEnsemble achieves a high defense success rate against adversarial examples and a high detection success rate against out-of-distribution data inputs, and outperforms existing representative defense methods with respect to robustness and defensibility.",
+      "citations": 29
+    },
+    {
+      "title": "DENL: Diverse Ensemble and Noisy Logits for Improved Robustness of Neural Networks",
+      "year": 2023,
+      "authors": "Mina Yazdani, Hamed Karimi, Reza Samavi",
+      "url": "https://www.semanticscholar.org/paper/915a207106645d2044b6c1e8bc7481e4abe422db",
+      "relevance": 2,
+      "abstract": "",
+      "citations": 1
+    },
+    {
+      "title": "PAD: A Robustness Enhancement Ensemble Method via Promoting Attention Diversity",
+      "year": 2024,
+      "authors": "Yuting Yang, Pei Huang, Feifei Ma, Juan Cao, Jintao Li",
+      "url": "https://www.semanticscholar.org/paper/a9c6516c8c265748f9f1e36ff06be9b6fe49b12f",
+      "relevance": 1,
+      "abstract": "Deep neural networks can be vulnerable to adversarial attacks, even for the mainstream Transformer-based models. Although several robustness enhancement approaches have been proposed, they usually focus on some certain type of perturbation. As the types of attack can be various and unpredictable in practical scenarios, a general and strong defense method is urgently in require. We notice that most well-trained models can be weakly robust in the perturbation space, i.e., only a small ratio of adversarial examples exist. Inspired by the weak robust property, this paper presents a novel ensemble method for enhancing robustness. We propose a lightweight framework PAD to save computational resources in realizing an ensemble. Instead of training multiple models, a plugin module is designed to perturb the parameters of a base model which can achieve the effect of multiple models. Then, to diversify adversarial example distributions among different models, we promote each model to have different attention patterns via optimizing a diversity measure we defined. Experiments on various widely-used datasets and target models show that PAD can consistently improve the defense ability against many types of adversarial attacks while maintaining accuracy on clean data. Besides, PAD also presents good interpretability via visualizing diverse attention patterns.",
+      "citations": 4
+    },
+    {
+      "title": "Exploring Model Learning Heterogeneity for Boosting Ensemble Robustness",
+      "year": 2023,
+      "authors": "Yanzhao Wu, Ka-Ho Chow, Wenqi Wei, Ling Liu",
+      "url": "https://www.semanticscholar.org/paper/4886c92f50b30def869a940e528fe21913ddbb09",
+      "relevance": 1,
+      "abstract": "Deep neural network ensembles hold the potential of improving generalization performance for complex learning tasks. This paper presents formal analysis and empirical evaluation to show that heterogeneous deep ensembles with high ensemble diversity can effectively leverage model learning heterogeneity to boost ensemble robustness. We first show that heterogeneous DNN models trained for solving the same learning problem, e.g., object detection, can significantly strengthen the mean average precision (mAP) through our weighted bounding box ensemble consensus method. Second, we further compose ensembles of heterogeneous models for solving different learning problems, e.g., object detection and semantic segmentation, by introducing the connected component labeling (CCL) based alignment. We show that this two-tier heterogeneity driven ensemble construction method can compose an ensemble team that promotes high ensemble diversity and low negative correlation among member models of the ensemble, strengthening ensemble robustness against both negative examples and adversarial attacks. Third, we provide a formal analysis of the ensemble robustness in terms of negative correlation. Extensive experiments validate the enhanced robustness of heterogeneous ensembles in both benign and adversarial settings. The appendix and source codes are available on GitHub at https://github.com/git-disl/HeteRobust.",
+      "citations": 11
+    },
+    {
+      "title": "Deep Neural Network Ensembles Against Deception: Ensemble Diversity, Accuracy and Robustness",
+      "year": 2019,
+      "authors": "Ling Liu, Wenqi Wei, Ka-Ho Chow, M. Loper, Emre Gursoy, Stacey Truex, Yanzhao Wu",
+      "url": "https://www.semanticscholar.org/paper/1bea5290c2f6d624809fe3f11635affbe0575fec",
+      "relevance": 1,
+      "abstract": "Ensemble learning is a methodology that integrates multiple DNN learners for improving prediction performance of individual learners. Diversity is greater when the errors of the ensemble prediction is more uniformly distributed. Greater diversity is highly correlated with the increase in ensemble accuracy. Another attractive property of diversity optimized ensemble learning is its robustness against deception: an adversarial perturbation attack can mislead one DNN model to misclassify but may not fool other ensemble DNN members consistently. In this paper we first give an overview of the concept of ensemble diversity and examine the three types of ensemble diversity in the context of DNN classifiers. We then describe a set of ensemble diversity measures, a suite of algorithms for creating diversity ensembles and for performing ensemble consensus (voted or learned) for generating high accuracy ensemble output by strategically combining outputs of individual members. This paper concludes with a discussion on a set of open issues in quantifying ensemble diversity for robust deep learning.",
+      "citations": 68
+    },
+    {
+      "title": "Ensemble Learning Methods for Dirty Data: A Keynote at CIKM 2022",
+      "year": 2023,
+      "authors": "Ling Liu",
+      "url": "https://www.semanticscholar.org/paper/bed2e012aab42486036feac1d02e6610df23a0f5",
+      "relevance": 1,
+      "abstract": "Neural network ensemble is a collaborative learning paradigm that utilizes multiple neural networks to solve a complex learning problem. Constructing predictive models with high generalization performance is an important and yet most challenging goal for robust AI systems in the presence of dirty data. Given a target learning task, popular approaches have been dedicated to designing and finding the top performing model. However, it is difficult in general to estimate the best model when available data is finite, possibly dirty, or insufficient for the problem. The problem of dirty data in machine learning (ML) can be characterized by the out of distribution data and the digital or physical deception of data. Such dirty data may cause unintended or harmful behavior for well trained ML models. In this paper, a curated version of my keynote at ACM CIKM 2022, I will first give a brief overview of ensemble learning methodology. Then I will review different types of dirty data that could deceive well-trained ML models. Finally, I will describe a focal diversity optimized ensemble learning framework, developed at Georgia Tech, for measuring, enforcing, and combining multiple neural networks, delivering high generalization performance of ensemble learner, while maximizing ensemble utility and resilience to dirty data. Date: 17 October 2022.",
+      "citations": 0
+    },
+    {
+      "title": "Cross-Layer Strategic Ensemble Defense Against Adversarial Examples",
+      "year": 2019,
+      "authors": "Wenqi Wei, Ling Liu, M. Loper, Ka-Ho Chow, Emre Gursoy, Stacey Truex, Yanzhao Wu",
+      "url": "https://www.semanticscholar.org/paper/501a7ab91bbf6bedf229b27787d15998ac5e94ba",
+      "relevance": 1,
+      "abstract": "Deep neural network (DNN) has demonstrated its success in multiple domains. However, DNN models are inherently vulnerable to adversarial examples, which are generated by adding adversarial perturbations to benign inputs to fool the DNN model to misclassify. In this paper, we present a cross-layer strategic ensemble framework and a suite of robust defense algorithms, which are attack-independent, and capable of auto-repairing and auto-verifying the target model being attacked. Our strategic ensemble approach makes three original contributions. First, we employ input-transformation diversity to design the input-layer strategic transformation ensemble algorithms. Second, we utilize model-disagreement diversity to develop the output-layer strategic model ensemble algorithms. Finally, we create an input-output cross-layer strategic ensemble defense that strengthens the defensibility by combining diverse input transformation based model ensembles with diverse output verification model ensembles. Evaluated over 10 attacks on ImageNet dataset, we show that our strategic ensemble defense algorithms can achieve high defense success rates and are more robust with high attack prevention success rates and low benign false negative rates, compared to existing representative defenses.",
+      "citations": 16
+    },
+    {
+      "title": "FASTEN: Fast Ensemble Learning for Improved Adversarial Robustness",
+      "year": 2024,
+      "authors": "Lifeng Huang, Qiong Huang, Peichao Qiu, Shuxin Wei, Chengying Gao",
+      "url": "https://www.semanticscholar.org/paper/1d578325fee45b5b4448f0cc9ede0605349a4f33",
+      "relevance": 1,
+      "abstract": "Recent works show that adversarial attacks threaten the security of deep neural networks (DNNs). To tackle this issue, ensemble learning methods have been proposed to train multiple sub-models and improve adversarial resistance without compromising accuracy. However, these methods often come with high computational costs, including multi-step optimization to generate high-quality augmentation data and additional network passes to optimize complicated regularization. In this paper, we present the FAST ENsemble learning method (FASTEN) to significantly reduce training costs in terms of data and optimization. Firstly, FASTEN employs a single-step technique to initialize poor augmentation data and recycles optimization knowledge to enhance data quality, which considerably reduces the data generation budget. Secondly, FASTEN introduces a low-cost regularizer to increase intra-model similarity and inter-model diversity, with most of the regularization components computed without network passes, further decreasing training costs. Empirical results on various datasets and networks demonstrate that FASTEN achieves higher robustness while requiring significantly fewer resources than current methods. For example, a 5-member FASTEN speeds up the optimization process by $7\\times $ and $28\\times $ compared to state-of-the-art DVERGE and TRS, respectively. Moreover, FASTEN outperforms the stronger of the two methods by 26.3% and 6.1% under black-box and white-box attacks, respectively. FASTEN is also compatible with existing fast adversarial training techniques, making it an advantageous choice for enhancing robustness without incurring excessive costs. The source code is publicly available at https://github.com/mesunhlf/FASTEN.",
+      "citations": 8
+    },
+    {
+      "title": "More or Less (MoL): Defending against Multiple Perturbation Attacks on Deep Neural Networks through Model Ensemble and Compression",
+      "year": 2022,
+      "authors": "Hao Cheng, Kaidi Xu, Zheng-qiang Li, Pu Zhao, Chenan Wang, Xue Lin, B. Kailkhura, R. Goldhahn",
+      "url": "https://www.semanticscholar.org/paper/db5b7844cf73aa6026c1c0a1c51eab79b904c2f0",
+      "relevance": 1,
+      "abstract": "Deep neural networks (DNNs) have been adopted in many application domains due to their superior performance. However, their susceptibility under test-time adversarial perturbations and out-of-distribution shifts has attracted extensive research efforts. The adversarial training provides an effective defense method withstanding evolving attacking methods. However, DNNs obtained by adversarial training are usually robust to only a single type of adversarial perturbation that they are trained with. To tackle this problem, improvements have been made to incorporate multiple perturbation types into adversarial training process, but with limited flexibility in terms of perturbation types. This work investigates the design problem of deep learning (DL) systems robust to multiple perturbation attacks. To maximize flexibility, we adopt the model ensemble approach, where an ensemble of expert models dealing with various perturbation types are integrated through a trainable aggregator module. Expert models are obtained in parallel through adversarial training, targeting at respective perturbation types. Then, the aggregator module is (adversarially) trained together with fine-tuning of expert models, addressing the obfuscated gradients issue in adversarial robustness. Furthermore, in order to practically implement the robust ensemble model onto edge devices, the model compression approach is leveraged to reduce the ensemble model size. By exploring the most suitable model compression scheme, we significantly reduce the overall model size without compromising robustness. Proposed More or Less (MoL) defense outperforms state-of-the-art defenses against multiple perturbations.",
+      "citations": 5
+    },
+    {
+      "title": "MULDEF: Multi-model-based Defense Against Adversarial Examples for Neural Networks",
+      "year": 2018,
+      "authors": "Siwakorn Srisakaokul, Zexuan Zhong, Yuhao Zhang, Wei Yang, Tao Xie",
+      "url": "https://www.semanticscholar.org/paper/66f72219e9870250b67bf70833bbcbcd163365a3",
+      "relevance": 1,
+      "abstract": "Despite being popularly used in many applications, neural network models have been found to be vulnerable to adversarial examples, i.e., carefully crafted examples aiming to mislead machine learning models. Adversarial examples can pose potential risks on safety and security critical applications. However, existing defense approaches are still vulnerable to attacks, especially in a white-box attack scenario. To address this issue, we propose a new defense approach, named MulDef, based on robustness diversity. Our approach consists of (1) a general defense framework based on multiple models and (2) a technique for generating these multiple models to achieve high defense capability. In particular, given a target model, our framework includes multiple models (constructed from the target model) to form a model family. The model family is designed to achieve robustness diversity (i.e., an adversarial example successfully attacking one model cannot succeed in attacking other models in the family). At runtime, a model is randomly selected from the family to be applied on each input example. Our general framework can inspire rich future research to construct a desirable model family achieving higher robustness diversity. Our evaluation results show that MulDef (with only up to 5 models in the family) can substantially improve the target model's accuracy on adversarial examples by 22-74% in a white-box attack scenario, while maintaining similar accuracy on legitimate examples.",
+      "citations": 20
+    },
+    {
+      "title": "Adversarial Robust Aerial Image Recognition Based on Reactive-Proactive Defense Framework with Deep Ensembles",
+      "year": 2023,
+      "authors": "Zihao Lu, Hao Sun, K. Ji, Gangyao Kuang",
+      "url": "https://www.semanticscholar.org/paper/cd74a4dd3f8c7c44d354cd4af5cefd51f2139145",
+      "relevance": 1,
+      "abstract": "As a safety-related application, visual systems based on deep neural networks (DNNs) in modern unmanned aerial vehicles (UAVs) show adversarial vulnerability when performing real-time inference. Recently, deep ensembles with various defensive strategies against adversarial samples have drawn much attention due to the increased diversity and reduced variance for their members. Aimed at the recognition task of remote sensing images (RSIs), this paper proposes to use a reactive-proactive ensemble defense framework to solve the security problem. In reactive defense, we fuse scoring functions of several classical detection algorithms with the hidden features and average output confidences from sub-models as a second fusion. In terms of proactive defense, we attempt two strategies, including enhancing the robustness of each sub-model and limiting the transferability among sub-models. In practical applications, the real-time RSIs are first input to the reactive defense part, which can detect and reject the adversarial RSIs. The accepted ones are then passed to robust recognition with a proactive defense. We conduct extensive experiments on three benchmark RSI datasets (i.e., UCM, AID, and FGSC-23). The experimental results show that the deep ensemble method of reactive and proactive defense performs very well in gradient-based attacks. The analysis of the applicable attack scenarios for each proactive ensemble defense is also helpful for this field. We also perform a case study with the whole framework in the black-box scenario, and the highest detection rate reaches 93.25%. Most of the adversarial RSIs can be rejected in advance or correctly recognized by the enhanced deep ensemble. This article is the first one to combine reactive and proactive defenses with a deep ensemble against adversarial attacks in the context of RSI recognition for DNN-based UAVs.",
+      "citations": 18
+    },
+    {
+      "title": "Adversarial vulnerability of powerful near out-of-distribution detection",
+      "year": 2022,
+      "authors": "Stanislav Fort",
+      "url": "https://www.semanticscholar.org/paper/eb90986ff64e3b5e7b5e33dc9501032058c6738e",
+      "relevance": 1,
+      "abstract": "There has been a significant progress in detecting out-of-distribution (OOD) inputs in neural networks recently, primarily due to the use of large models pretrained on large datasets, and an emerging use of multi-modality. We show a severe adversarial vulnerability of even the strongest current OOD detection techniques. With a small, targeted perturbation to the input pixels, we can change the image assignment from an in-distribution to an out-distribution, and vice versa, easily. In particular, we demonstrate severe adversarial vulnerability on the challenging near OOD CIFAR-100 vs CIFAR-10 task, as well as on the far OOD CIFAR-100 vs SVHN. We study the adversarial robustness of several post-processing techniques, including the simple baseline of Maximum of Softmax Probabilities (MSP), the Mahalanobis distance, and the newly proposed \\textit{Relative} Mahalanobis distance. By comparing the loss of OOD detection performance at various perturbation strengths, we demonstrate the beneficial effect of using ensembles of OOD detectors, and the use of the \\textit{Relative} Mahalanobis distance over other post-processing methods. In addition, we show that even strong zero-shot OOD detection using CLIP and multi-modality suffers from a severe lack of adversarial robustness as well. Our code is available at https://github.com/stanislavfort/adversaries_to_OOD_detection",
+      "citations": 18
+    },
+    {
+      "title": "GNN-Ensemble: Towards Random Decision Graph Neural Networks",
+      "year": 2023,
+      "authors": "Wenqi Wei, Mu Qiao, Divyesh Jadav",
+      "url": "https://www.semanticscholar.org/paper/3d36bfccc3b37c4d5d35dc1f674d885fa9d49006",
+      "relevance": 1,
+      "abstract": "Graph Neural Networks (GNNs) have enjoyed wide spread applications in graph-structured data. However, existing graph based applications commonly lack annotated data. GNNs are required to learn latent patterns from a limited amount of training data to perform inferences on a vast amount of test data. The increased complexity of GNNs, as well as a single point of model parameter initialization, usually lead to overfitting and sub-optimal performance. In addition, it is known that GNNs are vulnerable to adversarial attacks. In this paper, we push one step forward on the ensemble learning of GNNs with improved accuracy, generalization, and adversarial robustness. Following the principles of stochastic modeling, we propose a new method called GNN-Ensemble to construct an ensemble of random decision graph neural networks whose capacity can be arbitrarily expanded for improvement in performance. The essence of the method is to build multiple GNNs in randomly selected substructures in the topological space and subfeatures in the feature space, and then combine them for final decision making. These GNNs in different substructure and subfeature spaces generalize their classification in complementary ways. Consequently, their combined classification performance can be improved and overfitting on the training data can be effectively reduced. In the meantime, we show that GNN-Ensemble can significantly enhance the adversarial robustness against attacks on GNNs.",
+      "citations": 10
+    },
+    {
+      "title": "Ensemble Adversarial Training: Attacks and Defenses",
+      "year": 2017,
+      "authors": "Florian Tram\u00e8r, Alexey Kurakin, Nicolas Papernot, D. Boneh, P. Mcdaniel",
+      "url": "https://www.semanticscholar.org/paper/136dee73f203df2f4831994bf4f0c0a4ad2e764e",
+      "relevance": 1,
+      "abstract": "Adversarial examples are perturbed inputs designed to fool machine learning models. Adversarial training injects such examples into training data to increase robustness. To scale this technique to large datasets, perturbations are crafted using fast single-step methods that maximize a linear approximation of the model's loss. We show that this form of adversarial training converges to a degenerate global minimum, wherein small curvature artifacts near the data points obfuscate a linear approximation of the loss. The model thus learns to generate weak perturbations, rather than defend against strong ones. As a result, we find that adversarial training remains vulnerable to black-box attacks, where we transfer perturbations computed on undefended models, as well as to a powerful novel single-step attack that escapes the non-smooth vicinity of the input data via a small random step. We further introduce Ensemble Adversarial Training, a technique that augments training data with perturbations transferred from other models. On ImageNet, Ensemble Adversarial Training yields models with strong robustness to black-box attacks. In particular, our most robust model won the first round of the NIPS 2017 competition on Defenses against Adversarial Attacks. However, subsequent work found that more elaborate black-box attacks could significantly enhance transferability and reduce the accuracy of our models.",
+      "citations": 3001
+    },
+    {
+      "title": "BBAS: Towards large scale effective ensemble adversarial attacks against deep neural network learning",
+      "year": 2020,
+      "authors": "Jialie Shen, N. Robertson",
+      "url": "https://www.semanticscholar.org/paper/26e3125dcc4e1fd1b31a0940141c72bf01942a19",
+      "relevance": 1,
+      "abstract": "Abstract Recent decades have witnessed rapid development of deep neural networks (DNN). As DNN learning is becoming more and more important to numerous intelligent system, ranging from self driving car to video surveillance system, significant research efforts have been devoted to explore how to improve DNN model\u2019s robustness and reliability against adversarial example attacks. Distinguish from previous study, we address the problem of adversarial training with ensemble based approach and propose a novel boosting based black-box attack scheme call BBAS to facilitate high diverse adversarial example generation. BBAS not only separates example generation from the settings of the trained model but also enhance the diversity of perturbation over class distribution through seamless integration of stratified sampling and ensemble adversarial training. This leads to reliable and effective training example selection. To validate and evaluate the scheme from different perspectives, a set of comprehensive tests have been carried out based on two large open data sets. Experimental results demonstrate the superiority of our method in terms of effectiveness.",
+      "citations": 104
+    },
+    {
+      "title": "Hierarchical Pruning of Deep Ensembles with Focal Diversity",
+      "year": 2023,
+      "authors": "Yanzhao Wu, Ka-Ho Chow, Wenqi Wei, Ling Liu",
+      "url": "https://www.semanticscholar.org/paper/94afea291b3cebb9da6b6fcb42a630baf21d4dd0",
+      "relevance": 1,
+      "abstract": "Deep neural network ensembles combine the wisdom of multiple deep neural networks to improve the generalizability and robustness over individual networks. It has gained increasing popularity to study and apply deep ensemble techniques in the deep learning community. Some mission-critical applications utilize a large number of deep neural networks to form deep ensembles to achieve desired accuracy and resilience, which introduces high time and space costs for ensemble execution. However, it still remains a critical challenge whether a small subset of the entire deep ensemble can achieve the same or better generalizability and how to effectively identify these small deep ensembles for improving the space and time efficiency of ensemble execution. This article presents a novel deep ensemble pruning approach, which can efficiently identify smaller deep ensembles and provide higher ensemble accuracy than the entire deep ensemble of a large number of member networks. Our hierarchical ensemble pruning approach (HQ) leverages three novel ensemble pruning techniques. First, we show that the focal ensemble diversity metrics can accurately capture the complementary capacity of the member networks of an ensemble team, which can guide ensemble pruning. Second, we design a focal ensemble diversity based hierarchical pruning approach, which will iteratively find high quality deep ensembles with low cost and high accuracy. Third, we develop a focal diversity consensus method to integrate multiple focal diversity metrics to refine ensemble pruning results, where smaller deep ensembles can be effectively identified to offer high accuracy, high robustness and high ensemble execution efficiency. Evaluated using popular benchmark datasets, we demonstrate that the proposed hierarchical ensemble pruning approach can effectively identify high quality deep ensembles with better classification generalizability while being more time and space efficient in ensemble decision making. We have released the source codes on GitHub at https://github.com/git-disl/HQ-Ensemble.",
+      "citations": 11
+    },
+    {
+      "title": "Sequential Bayesian Neural Subnetwork Ensembles",
+      "year": 2022,
+      "authors": "Sanket R. Jantre, Sandeep Madireddy, Shrijita Bhattacharya, T. Maiti, Prasanna Balaprakash",
+      "url": "https://www.semanticscholar.org/paper/d118ef37fb1d3de10df11d235d37ad09d0253332",
+      "relevance": 1,
+      "abstract": "Deep ensembles have emerged as a powerful technique for improving predictive performance and enhancing model robustness across various applications by leveraging model diversity. However, traditional deep ensemble methods are often computationally expensive and rely on deterministic models, which may limit their flexibility. Additionally, while sparse subnetworks of dense models have shown promise in matching the performance of their dense counterparts and even enhancing robustness, existing methods for inducing sparsity typically incur training costs comparable to those of training a single dense model, as they either gradually prune the network during training or apply thresholding post-training. In light of these challenges, we propose an approach for sequential ensembling of dynamic Bayesian neural subnetworks that consistently maintains reduced model complexity throughout the training process while generating diverse ensembles in a single forward pass. Our approach involves an initial exploration phase to identify high-performing regions within the parameter space, followed by multiple exploitation phases that take advantage of the compactness of the sparse model. These exploitation phases quickly converge to different minima in the energy landscape, corresponding to high-performing subnetworks that together form a diverse and robust ensemble. We empirically demonstrate that our proposed approach outperforms traditional dense and sparse deterministic and Bayesian ensemble models in terms of prediction accuracy, uncertainty estimation, out-of-distribution detection, and adversarial robustness.",
+      "citations": 7
+    },
+    {
+      "title": "Adversarial Example Defense: Ensembles of Weak Defenses are not Strong",
+      "year": 2017,
+      "authors": "Warren He, James Wei, Xinyun Chen, Nicholas Carlini, D. Song",
+      "url": "https://www.semanticscholar.org/paper/938196ec2a1a880c42e474d3034f6d589dd6890d",
+      "relevance": 1,
+      "abstract": "",
+      "citations": 208
+    },
+    {
+      "title": "Out-of-Distribution Detection Using an Ensemble of Self Supervised Leave-out Classifiers",
+      "year": 2018,
+      "authors": "Apoorv Vyas, Nataraj Jammalamadaka, Xia Zhu, Dipankar Das, Bharat Kaul, Theodore L. Willke",
+      "url": "https://www.semanticscholar.org/paper/e31fa9510047c0df23fb4dd37ee7c70783a3fa60",
+      "relevance": 1,
+      "abstract": "As deep learning methods form a critical part in commercially important applications such as autonomous driving and medical diagnostics, it is important to reliably detect out-of-distribution (OOD) inputs while employing these algorithms. In this work, we propose an OOD detection algorithm which comprises of an ensemble of classifiers. We train each classifier in a self-supervised manner by leaving out a random subset of training data as OOD data and the rest as in-distribution (ID) data. We propose a novel margin-based loss over the softmax output which seeks to maintain at least a margin m between the average entropy of the OOD and in-distribution samples. In conjunction with the standard cross-entropy loss, we minimize the novel loss to train an ensemble of classifiers. We also propose a novel method to combine the outputs of the ensemble of classifiers to obtain OOD detection score and class prediction. Overall, our method convincingly outperforms Hendrycks et al. [7] and the current state-of-the-art ODIN [13] on several OOD detection benchmarks.",
+      "citations": 262
+    },
+    {
+      "title": "Clustering and Ensemble Based Approach for Securing Electricity Theft Detectors Against Evasion Attacks",
+      "year": 2023,
+      "authors": "Islam Elgarhy, Mahmoud M. Badr, Mohamed Mahmoud, Mostafa M. Fouda, Maazen Alsabaan, Hisham A. Kholidy",
+      "url": "https://www.semanticscholar.org/paper/345a3fed573efbb8a3b7bdb575f72059707cca0a",
+      "relevance": 1,
+      "abstract": "In smart power grids, electricity theft causes huge economic losses to electrical utility companies. Machine learning (ML), especially deep neural network (DNN) models hold state-of-the-art performance in detecting electricity theft cyberattacks. However, DNN models are vulnerable to adversarial attacks, i.e., evasion attacks. In this work, we, first, study the vulnerability of the DNN-based electricity theft detectors against evasion attacks and the influence of the model\u2019s regularization (generalization) and transferability on robustness. Then, we cluster the power consumers and train a detector for each cluster, and compare the performance and robustness of this detector to a global detector that is trained on all the consumers\u2019 data. The results indicate that the cluster-based detector is not only more robust against evasion attacks but also enhances normal classification accuracy because its training data has more consumption pattern similarity compared to the training data of the global detector which requires higher level of regularization. Then, we develop a cluster-based parallel-ensemble electricity theft detector to achieve high robustness against evasion attacks and high detection accuracy. The proposed detector has two levels of defense, including clustering and ensemble, where clustering decreases regularization and improves robustness, and the ensemble of diverse decision models improves robustness against transferability. We evaluate the detector on different threat models, including Blackbox and Graybox with different knowledge about defense strategy, model architecture, and training dataset. The evaluation results indicate that unlike the existing solutions that sacrifice the normal accuracy of the model to improve the robustness against evasion attacks, the proposed detector outperforms the benchmark defenses in terms of robustness and normal classification accuracy.",
+      "citations": 32
+    },
+    {
+      "title": "Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles",
+      "year": 2016,
+      "authors": "Balaji Lakshminarayanan, A. Pritzel, C. Blundell",
+      "url": "https://www.semanticscholar.org/paper/802168a81571dde28f5ddb94d84677bc007afa7b",
+      "relevance": 1,
+      "abstract": "Deep neural networks (NNs) are powerful black box predictors that have recently achieved impressive performance on a wide spectrum of tasks. Quantifying predictive uncertainty in NNs is a challenging and yet unsolved problem. Bayesian NNs, which learn a distribution over weights, are currently the state-of-the-art for estimating predictive uncertainty; however these require significant modifications to the training procedure and are computationally expensive compared to standard (non-Bayesian) NNs. We propose an alternative to Bayesian NNs that is simple to implement, readily parallelizable, requires very little hyperparameter tuning, and yields high quality predictive uncertainty estimates. Through a series of experiments on classification and regression benchmarks, we demonstrate that our method produces well-calibrated uncertainty estimates which are as good or better than approximate Bayesian NNs. To assess robustness to dataset shift, we evaluate the predictive uncertainty on test examples from known and unknown distributions, and show that our method is able to express higher uncertainty on out-of-distribution examples. We demonstrate the scalability of our method by evaluating predictive uncertainty estimates on ImageNet.",
+      "citations": 7129
+    },
+    {
+      "title": "Ensemble Learning Methods of Adversarial Attacks and Defenses in Computer Vision: Recent Progress",
+      "year": 2022,
+      "authors": "Zhiping Lu, Hongchao Hu, Shumin Huo, Shuyi Li",
+      "url": "https://www.semanticscholar.org/paper/858c17a378d418823dcde52b3a9d1d25cec41d06",
+      "relevance": 1,
+      "abstract": "Artificial intelligence (AI) has developed rapidly in recent decades and is widely used in many fields, such as natural language processing, voice recognition, and especially computer vision (CV). However, the endogenous security problems brought by the AI model itself, leading to the emergence of adversarial examples (AEs), which can fool the AI models and cause a serious impact on the classification. In recent years, researches show that ensemble learning methods are effective both in generating or detecting AEs. By integrating to generate AEs, the attackers can implement stronger and good transferability attacks to the target models. On the other hand, ensemble learning methods can also be used in defenses that can improve the robustness against AEs. In this paper, we focus on the ensemble learning methods in the CV field, and first introduce the classic adversarial attack and defense technologies. Then, we survey the ensemble learning methods in the adversarial environment and divide them into three types of frameworks (i.e., parallel, sequential, and hybrid). To the best of our knowledge, we are the first to analyze the recent proposed attacks and defenses in the adversarial environment from the perspective of these ensemble frameworks. Additionally, we summarize the advantages and disadvantages of these ensemble methods and frameworks. In the end, we give some suggestions for using ensemble frameworks, and we put forward several opinions from the aspects of attacks, defenses, and evaluations for future research directions in this field.",
+      "citations": 7
+    },
+    {
+      "title": "EnsGuard: A Novel Acceleration Framework for Adversarial Ensemble Learning",
+      "year": 2024,
+      "authors": "Xingbin Wang, Yan Wang, Yulan Su, Sisi Zhang, Dan Meng, Rui Hou",
+      "url": "https://www.semanticscholar.org/paper/eb1de1ba547b2742e85f1577d4769d3e2dbda68c",
+      "relevance": 1,
+      "abstract": "To defend against various adversarial attacks, it is essential to develop a robust and high computing efficiency defence framework. Adversarial ensemble learning is the most effective technique for defending against adversarial example attacks, which constructs ensembles of multiple Deep neural networks (DNNs) with adversarial training to obtain stronger defense. However, ensemble models run noticeably slower on existing DNN accelerators than single-model inference. Deploying ensemble models on the existing DNN accelerators leads to many critical issues such as the underutilization of hardware resources. To tackle emerging challenges, we propose EnsGuard, a dynamic asymmetric multicore systolic array architecture for adversarial ensemble learning inference to fully exploit both static and dynamic parallelism of ensemble models. Specifically, on the hardware level, we propose a novel instruction set extension and develop efficient architecture components to fully exploit the new hardware abstraction of scattered idle computing cores, and use them to dynamically create on-the-fly neural processing units (fNPUs). Moreover, we propose a computing power recycle mechanism to run on-the-fly models (small models) on fNPUs by carefully orchestrating execution order of ensemble models for maximizing hardware resources and bandwidth utilization. On the software level, EnsGuard adopts an integrated hardware/randomized ensemble co-design optimizer aiming at winning both faster inference and higher adversarial robustness. On top of that, a multimodel mapping method based on decision tree is proposed to enable the interleaving of different DNN executions both spatially and temporally, and mitigate straggler problems. Evaluation with a diverse set of workloads shows significant gains in throughput ( $4.4\\times $ ) and energy reduction ( $3.2\\times $ ).",
+      "citations": 4
+    },
+    {
+      "title": "Securing Smart Grid False Data Detectors Against White-Box Evasion Attacks Without Sacrificing Accuracy",
+      "year": 2024,
+      "authors": "Islam Elgarhy, Mahmoud M. Badr, Mohamed Mahmoud, M. N. Mahmoud, Maazen Alsabaan, Mohamed I. Ibrahem",
+      "url": "https://www.semanticscholar.org/paper/bf9b6384d4716c1b29adad9df21ab7624ea36e87",
+      "relevance": 1,
+      "abstract": "In the realm of smart grids, smart meters can be hacked to report false data to lower the consumers\u2019 electricity bills. While machine learning (ML) techniques have shown promise in detecting false data, they are also prone to adversarial attacks, such as evasion attacks. This article investigates the impact of gradient-ensemble-based evasion attacks on the smart grid ML-based false data detectors, focusing on the white-box threat model where attackers possess detailed knowledge of the defense mechanism. First, we examines the vulnerability of three detectors (consumer-based, cluster-based, and global) to gradient-based evasion attacks. The evaluation results show an inverse relationship between robustness of the detectors and regularization (i.e., generalization), where higher data set variability usually causes higher regularization. Notably, minimal regularization level is observed when electricity consumption patterns are close. Our findings also indicate that the consumer-based detector exhibits higher accuracy and robustness but remains susceptible to zero day attacks and demands substantial computational resources for training an ML model for each consumer. In contrast, the cluster-based detector improves accuracy and exhibits satisfactory robustness compared to the global detector. Subsequently, we proposes two parallel-ensemble approaches (stacking and voting) for the cluster-based false data detectors trained on the adversarial samples. The evaluation results demonstrate that integrating clustering, adversarial training, and ensemble methods, the proposed detector enhances robustness against gradient-ensemble-based evasion attacks while significantly boosting accuracy. This stands in contrast to benchmark defenses, which often face a tradeoff between accuracy and robustness, sacrificing accuracy to bolster resilience against evasion attacks.",
+      "citations": 16
+    },
+    {
+      "title": "Boosting Ensemble Accuracy by Revisiting Ensemble Diversity Metrics",
+      "year": 2021,
+      "authors": "Yanzhao Wu, Ling Liu, Zhongwei Xie, Ka-Ho Chow, Wenqi Wei",
+      "url": "https://www.semanticscholar.org/paper/9b0297ad3e186c98b9813c4d799ffd0108a42b39",
+      "relevance": 1,
+      "abstract": "Neural network ensembles are gaining popularity by harnessing the complementary wisdom of multiple base models. Ensemble teams with high diversity promote high failure independence, which is effective for boosting the overall ensemble accuracy. This paper provides an in-depth study on how to design and compute ensemble diversity, which can capture the complementary decision capacity of ensemble member models. We make three original contri-butions. First, we revisit the ensemble diversity metrics in the literature and analyze the inherent problems of poor correlation between ensemble diversity and ensemble ac-curacy, which leads to the low quality ensemble selection using such diversity metrics. Second, instead of computing diversity scores for ensemble teams of different sizes using the same criteria, we introduce focal model based ensemble diversity metrics, coined as FQ-diversity metrics. Our new metrics significantly improve the intrinsic correlation between high ensemble diversity and high ensemble accuracy. Third, we introduce a diversity fusion method, coined as the EQ-diversity metric, by integrating the top three most representative FQ-diversity metrics. Comprehensive experiments on two benchmark datasets (CIFAR-10 and ImageNet) show that our FQ and EQ diversity metrics are effective for selecting high diversity ensemble teams to boost overall ensemble accuracy.",
+      "citations": 49
+    },
+    {
+      "title": "Stochastic Multiple Choice Learning for Training Diverse Deep Ensembles",
+      "year": 2016,
+      "authors": "Stefan Lee, Senthil Purushwalkam, Michael Cogswell, Viresh Ranjan, David J. Crandall, Dhruv Batra",
+      "url": "https://www.semanticscholar.org/paper/298f1bffed274e890e0a09b38cfca42020fd1462",
+      "relevance": 1,
+      "abstract": "Many practical perception systems exist within larger processes that include interactions with users or additional components capable of evaluating the quality of predicted solutions. In these contexts, it is beneficial to provide these oracle mechanisms with multiple highly likely hypotheses rather than a single prediction. In this work, we pose the task of producing multiple outputs as a learning problem over an ensemble of deep networks -- introducing a novel stochastic gradient descent based approach to minimize the loss with respect to an oracle. Our method is simple to implement, agnostic to both architecture and loss function, and parameter-free. Our approach achieves lower oracle error compared to existing methods on a wide range of tasks and deep architectures. We also show qualitatively that the diverse solutions produced often provide interpretable representations of task ambiguity.",
+      "citations": 189
+    },
+    {
+      "title": "Promoting High Diversity Ensemble Learning with EnsembleBench",
+      "year": 2020,
+      "authors": "Yanzhao Wu, Ling Liu, Zhongwei Xie, Juhyun Bae, Ka-Ho Chow, Wenqi Wei",
+      "url": "https://www.semanticscholar.org/paper/3c30519439813367ce392524d3be9b61ba5992ae",
+      "relevance": 1,
+      "abstract": "Ensemble learning is gaining renewed interests in recent years. This paper presents EnsembleBench, a holistic framework for evaluating and recommending high diversity and high accuracy ensembles. The design of EnsembleBench offers three novel features: (1) EnsembleBench introduces a set of quantitative metrics for assessing the quality of ensembles and for comparing alternative ensembles constructed for the same learning tasks. (2) EnsembleBench implements a suite of baseline diversity metrics and optimized diversity metrics for identifying and selecting ensembles with high diversity and high quality, making it an effective framework for benchmarking, evaluating and recommending high diversity model ensembles. (3) Four representative ensemble consensus methods are provided in the first release of EnsembleBench, enabling empirical study on the impact of consensus methods on ensemble accuracy. A comprehensive experimental evaluation on popular benchmark datasets demonstrates the utility and effectiveness of EnsembleBench for promoting high diversity ensembles and boosting the overall performance of selected ensembles.",
+      "citations": 14
+    }
+  ]
+}

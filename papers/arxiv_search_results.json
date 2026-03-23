@@ -1,0 +1,640 @@
+[
+  {
+    "query": "neural thicket ensemble",
+    "title": "The Deep Arbitrary Polynomial Chaos Neural Network or how Deep Artificial Neural Networks could benefit from Data-Driven Homogeneous Chaos Theory",
+    "id": "2306.14753v1",
+    "published": "2023-06-26",
+    "pdf": "https://arxiv.org/pdf/2306.14753v1",
+    "authors": [
+      "Sergey Oladyshkin",
+      "Timothy Praditia",
+      "Ilja Kr\u00f6ker",
+      "Farid Mohammadi",
+      "Wolfgang Nowak",
+      "Sebastian Otte"
+    ]
+  },
+  {
+    "query": "neural thicket ensemble",
+    "title": "A Tutorial about Random Neural Networks in Supervised Learning",
+    "id": "1609.04846v1",
+    "published": "2016-09-15",
+    "pdf": "https://arxiv.org/pdf/1609.04846v1",
+    "authors": [
+      "Sebasti\u00e1n Basterrech",
+      "Gerardo Rubino"
+    ]
+  },
+  {
+    "query": "neural thicket ensemble",
+    "title": "Continual learning with the neural tangent ensemble",
+    "id": "2408.17394v2",
+    "published": "2024-08-30",
+    "pdf": "https://arxiv.org/pdf/2408.17394v2",
+    "authors": [
+      "Ari S. Benjamin",
+      "Christian Pehle",
+      "Kyle Daruwalla"
+    ]
+  },
+  {
+    "query": "neural thicket ensemble",
+    "title": "Learning Active Subspaces and Discovering Important Features with Gaussian Radial Basis Functions Neural Networks",
+    "id": "2307.05639v2",
+    "published": "2023-07-11",
+    "pdf": "https://arxiv.org/pdf/2307.05639v2",
+    "authors": [
+      "Danny D'Agostino",
+      "Ilija Ilievski",
+      "Christine Annette Shoemaker"
+    ]
+  },
+  {
+    "query": "neural thicket ensemble",
+    "title": "Hierarchical Attentional Hybrid Neural Networks for Document Classification",
+    "id": "1901.06610v2",
+    "published": "2019-01-20",
+    "pdf": "https://arxiv.org/pdf/1901.06610v2",
+    "authors": [
+      "Jader Abreu",
+      "Luis Fred",
+      "David Mac\u00eado",
+      "Cleber Zanchettin"
+    ]
+  },
+  {
+    "query": "neural thicket ensemble",
+    "title": "A Neural Network-Evolutionary Computational Framework for Remaining Useful Life Estimation of Mechanical Systems",
+    "id": "1905.05918v1",
+    "published": "2019-05-15",
+    "pdf": "https://arxiv.org/pdf/1905.05918v1",
+    "authors": [
+      "David Laredo",
+      "Zhaoyin Chen",
+      "Oliver Sch\u00fctze",
+      "Jian-Qiao Sun"
+    ]
+  },
+  {
+    "query": "neural thicket ensemble",
+    "title": "Development of a sensory-neural network for medical diagnosing",
+    "id": "1807.02477v1",
+    "published": "2018-07-06",
+    "pdf": "https://arxiv.org/pdf/1807.02477v1",
+    "authors": [
+      "Igor Grabec",
+      "Eva \u0160vegl",
+      "Mihael Sok"
+    ]
+  },
+  {
+    "query": "neural thicket ensemble",
+    "title": "A Review on Neural Network Models of Schizophrenia and Autism Spectrum Disorder",
+    "id": "1906.10015v2",
+    "published": "2019-06-24",
+    "pdf": "https://arxiv.org/pdf/1906.10015v2",
+    "authors": [
+      "Pablo Lanillos",
+      "Daniel Oliva",
+      "Anja Philippsen",
+      "Yuichi Yamashita",
+      "Yukie Nagai",
+      "Gordon Cheng"
+    ]
+  },
+  {
+    "query": "deep ensembles adversarial robustness",
+    "title": "Holistic Adversarial Robustness of Deep Learning Models",
+    "id": "2202.07201v3",
+    "published": "2022-02-15",
+    "pdf": "https://arxiv.org/pdf/2202.07201v3",
+    "authors": [
+      "Pin-Yu Chen",
+      "Sijia Liu"
+    ]
+  },
+  {
+    "query": "deep ensembles adversarial robustness",
+    "title": "Certifying Joint Adversarial Robustness for Model Ensembles",
+    "id": "2004.10250v1",
+    "published": "2020-04-21",
+    "pdf": "https://arxiv.org/pdf/2004.10250v1",
+    "authors": [
+      "Mainuddin Ahmad Jonas",
+      "David Evans"
+    ]
+  },
+  {
+    "query": "deep ensembles adversarial robustness",
+    "title": "DeepCloak: Masking Deep Neural Network Models for Robustness Against Adversarial Samples",
+    "id": "1702.06763v8",
+    "published": "2017-02-22",
+    "pdf": "https://arxiv.org/pdf/1702.06763v8",
+    "authors": [
+      "Ji Gao",
+      "Beilun Wang",
+      "Zeming Lin",
+      "Weilin Xu",
+      "Yanjun Qi"
+    ]
+  },
+  {
+    "query": "deep ensembles adversarial robustness",
+    "title": "On Adversarial Robustness: A Neural Architecture Search perspective",
+    "id": "2007.08428v4",
+    "published": "2020-07-16",
+    "pdf": "https://arxiv.org/pdf/2007.08428v4",
+    "authors": [
+      "Chaitanya Devaguptapu",
+      "Devansh Agarwal",
+      "Gaurav Mittal",
+      "Pulkit Gopalani",
+      "Vineeth N Balasubramanian"
+    ]
+  },
+  {
+    "query": "deep ensembles adversarial robustness",
+    "title": "Saliency Diversified Deep Ensemble for Robustness to Adversaries",
+    "id": "2112.03615v1",
+    "published": "2021-12-07",
+    "pdf": "https://arxiv.org/pdf/2112.03615v1",
+    "authors": [
+      "Alex Bogun",
+      "Dimche Kostadinov",
+      "Damian Borth"
+    ]
+  },
+  {
+    "query": "deep ensembles adversarial robustness",
+    "title": "A Deep Dive into Adversarial Robustness in Zero-Shot Learning",
+    "id": "2008.07651v1",
+    "published": "2020-08-17",
+    "pdf": "https://arxiv.org/pdf/2008.07651v1",
+    "authors": [
+      "Mehmet Kerim Yucel",
+      "Ramazan Gokberk Cinbis",
+      "Pinar Duygulu"
+    ]
+  },
+  {
+    "query": "deep ensembles adversarial robustness",
+    "title": "Memorization in Deep Neural Networks: Does the Loss Function matter?",
+    "id": "2107.09957v2",
+    "published": "2021-07-21",
+    "pdf": "https://arxiv.org/pdf/2107.09957v2",
+    "authors": [
+      "Deep Patel",
+      "P. S. Sastry"
+    ]
+  },
+  {
+    "query": "deep ensembles adversarial robustness",
+    "title": "Adversarial Deep Ensemble: Evasion Attacks and Defenses for Malware Detection",
+    "id": "2006.16545v1",
+    "published": "2020-06-30",
+    "pdf": "https://arxiv.org/pdf/2006.16545v1",
+    "authors": [
+      "Deqiang Li",
+      "Qianmu Li"
+    ]
+  },
+  {
+    "query": "ensemble adversarial training",
+    "title": "Smoothness Analysis of Adversarial Training",
+    "id": "2103.01400v3",
+    "published": "2021-03-02",
+    "pdf": "https://arxiv.org/pdf/2103.01400v3",
+    "authors": [
+      "Sekitoshi Kanai",
+      "Masanori Yamada",
+      "Hiroshi Takahashi",
+      "Yuki Yamanaka",
+      "Yasutoshi Ida"
+    ]
+  },
+  {
+    "query": "ensemble adversarial training",
+    "title": "Semi-supervised Semantics-guided Adversarial Training for Trajectory Prediction",
+    "id": "2205.14230v2",
+    "published": "2022-05-27",
+    "pdf": "https://arxiv.org/pdf/2205.14230v2",
+    "authors": [
+      "Ruochen Jiao",
+      "Xiangguo Liu",
+      "Takami Sato",
+      "Qi Alfred Chen",
+      "Qi Zhu"
+    ]
+  },
+  {
+    "query": "ensemble adversarial training",
+    "title": "Geometry-aware Instance-reweighted Adversarial Training",
+    "id": "2010.01736v2",
+    "published": "2020-10-05",
+    "pdf": "https://arxiv.org/pdf/2010.01736v2",
+    "authors": [
+      "Jingfeng Zhang",
+      "Jianing Zhu",
+      "Gang Niu",
+      "Bo Han",
+      "Masashi Sugiyama",
+      "Mohan Kankanhalli"
+    ]
+  },
+  {
+    "query": "ensemble adversarial training",
+    "title": "Feature Purification: How Adversarial Training Performs Robust Deep Learning",
+    "id": "2005.10190v4",
+    "published": "2020-05-20",
+    "pdf": "https://arxiv.org/pdf/2005.10190v4",
+    "authors": [
+      "Zeyuan Allen-Zhu",
+      "Yuanzhi Li"
+    ]
+  },
+  {
+    "query": "ensemble adversarial training",
+    "title": "Label Noise in Adversarial Training: A Novel Perspective to Study Robust Overfitting",
+    "id": "2110.03135v4",
+    "published": "2021-10-07",
+    "pdf": "https://arxiv.org/pdf/2110.03135v4",
+    "authors": [
+      "Chengyu Dong",
+      "Liyuan Liu",
+      "Jingbo Shang"
+    ]
+  },
+  {
+    "query": "ensemble adversarial training",
+    "title": "Quaternion Generative Adversarial Networks",
+    "id": "2104.09630v2",
+    "published": "2021-04-19",
+    "pdf": "https://arxiv.org/pdf/2104.09630v2",
+    "authors": [
+      "Eleonora Grassucci",
+      "Edoardo Cicero",
+      "Danilo Comminiello"
+    ]
+  },
+  {
+    "query": "out of distribution detection ensemble",
+    "title": "On the Learnability of Out-of-distribution Detection",
+    "id": "2404.04865v1",
+    "published": "2024-04-07",
+    "pdf": "https://arxiv.org/pdf/2404.04865v1",
+    "authors": [
+      "Zhen Fang",
+      "Yixuan Li",
+      "Feng Liu",
+      "Bo Han",
+      "Jie Lu"
+    ]
+  },
+  {
+    "query": "out of distribution detection ensemble",
+    "title": "Batch-Ensemble Stochastic Neural Networks for Out-of-Distribution Detection",
+    "id": "2206.12911v1",
+    "published": "2022-06-26",
+    "pdf": "https://arxiv.org/pdf/2206.12911v1",
+    "authors": [
+      "Xiongjie Chen",
+      "Yunpeng Li",
+      "Yongxin Yang"
+    ]
+  },
+  {
+    "query": "out of distribution detection ensemble",
+    "title": "Histogram- and Diffusion-Based Medical Out-of-Distribution Detection",
+    "id": "2310.08654v1",
+    "published": "2023-10-12",
+    "pdf": "https://arxiv.org/pdf/2310.08654v1",
+    "authors": [
+      "Evi M. C. Huijben",
+      "Sina Amirrajab",
+      "Josien P. W. Pluim"
+    ]
+  },
+  {
+    "query": "out of distribution detection ensemble",
+    "title": "In-Distribution and Out-of-Distribution Self-supervised ECG Representation Learning for Arrhythmia Detection",
+    "id": "2304.06427v2",
+    "published": "2023-04-13",
+    "pdf": "https://arxiv.org/pdf/2304.06427v2",
+    "authors": [
+      "Sahar Soltanieh",
+      "Javad Hashemi",
+      "Ali Etemad"
+    ]
+  },
+  {
+    "query": "out of distribution detection ensemble",
+    "title": "On the Usefulness of Deep Ensemble Diversity for Out-of-Distribution Detection",
+    "id": "2207.07517v2",
+    "published": "2022-07-15",
+    "pdf": "https://arxiv.org/pdf/2207.07517v2",
+    "authors": [
+      "Guoxuan Xia",
+      "Christos-Savvas Bouganis"
+    ]
+  },
+  {
+    "query": "out of distribution detection ensemble",
+    "title": "Embedded out-of-distribution detection on an autonomous robot platform",
+    "id": "2106.15965v1",
+    "published": "2021-06-30",
+    "pdf": "https://arxiv.org/pdf/2106.15965v1",
+    "authors": [
+      "Michael Yuhas",
+      "Yeli Feng",
+      "Daniel Jun Xian Ng",
+      "Zahra Rahiminasab",
+      "Arvind Easwaran"
+    ]
+  },
+  {
+    "query": "out of distribution detection ensemble",
+    "title": "Thinking Beyond Distributions in Testing Machine Learned Models",
+    "id": "2112.03057v1",
+    "published": "2021-12-06",
+    "pdf": "https://arxiv.org/pdf/2112.03057v1",
+    "authors": [
+      "Negar Rostamzadeh",
+      "Ben Hutchinson",
+      "Christina Greer",
+      "Vinodkumar Prabhakaran"
+    ]
+  },
+  {
+    "query": "parameter perturbation ensemble robustness",
+    "title": "Enhancing Certifiable Robustness via a Deep Model Ensemble",
+    "id": "1910.14655v1",
+    "published": "2019-10-31",
+    "pdf": "https://arxiv.org/pdf/1910.14655v1",
+    "authors": [
+      "Huan Zhang",
+      "Minhao Cheng",
+      "Cho-Jui Hsieh"
+    ]
+  },
+  {
+    "query": "parameter perturbation ensemble robustness",
+    "title": "Perturbative Expansions in QCD Improved by Conformal Mappings of the Borel Plane",
+    "id": "1711.04445v1",
+    "published": "2017-11-13",
+    "pdf": "https://arxiv.org/pdf/1711.04445v1",
+    "authors": [
+      "Irinel Caprini",
+      "Jan Fischer",
+      "Gauhar Abbas",
+      "B. Ananthanarayan"
+    ]
+  },
+  {
+    "query": "parameter perturbation ensemble robustness",
+    "title": "Benchmarking Neural Network Robustness to Common Corruptions and Perturbations",
+    "id": "1903.12261v1",
+    "published": "2019-03-28",
+    "pdf": "https://arxiv.org/pdf/1903.12261v1",
+    "authors": [
+      "Dan Hendrycks",
+      "Thomas Dietterich"
+    ]
+  },
+  {
+    "query": "parameter perturbation ensemble robustness",
+    "title": "Robust Parameter Estimation for Rational Ordinary Differential Equations",
+    "id": "2303.02159v3",
+    "published": "2023-03-02",
+    "pdf": "https://arxiv.org/pdf/2303.02159v3",
+    "authors": [
+      "Oren Bassik",
+      "Yosef Berman",
+      "Soo Go",
+      "Hoon Hong",
+      "Ilia Ilmer",
+      "Alexey Ovchinnikov",
+      "Chris Rackauckas",
+      "Pedro Soto",
+      "Chee Yap"
+    ]
+  },
+  {
+    "query": "parameter perturbation ensemble robustness",
+    "title": "PEP: Parameter Ensembling by Perturbation",
+    "id": "2010.12721v1",
+    "published": "2020-10-24",
+    "pdf": "https://arxiv.org/pdf/2010.12721v1",
+    "authors": [
+      "Alireza Mehrtash",
+      "Purang Abolmaesumi",
+      "Polina Golland",
+      "Tina Kapur",
+      "Demian Wassermann",
+      "William M. Wells"
+    ]
+  },
+  {
+    "query": "parameter perturbation ensemble robustness",
+    "title": "Split-Ensemble: Efficient OOD-aware Ensemble via Task and Model Splitting",
+    "id": "2312.09148v2",
+    "published": "2023-12-14",
+    "pdf": "https://arxiv.org/pdf/2312.09148v2",
+    "authors": [
+      "Anthony Chen",
+      "Huanrui Yang",
+      "Yulu Gan",
+      "Denis A Gudovskiy",
+      "Zhen Dong",
+      "Haofan Wang",
+      "Tomoyuki Okuno",
+      "Yohei Nakata",
+      "Kurt Keutzer",
+      "Shanghang Zhang"
+    ]
+  },
+  {
+    "query": "parameter perturbation ensemble robustness",
+    "title": "Moment-Based Ensemble Control",
+    "id": "2009.02646v1",
+    "published": "2020-09-06",
+    "pdf": "https://arxiv.org/pdf/2009.02646v1",
+    "authors": [
+      "Vignesh Narayanan",
+      "Wei Zhang",
+      "Jr-Shin Li"
+    ]
+  },
+  {
+    "query": "orthogonal perturbation neural network ensemble",
+    "title": "Predicting concentration levels of air pollutants by transfer learning and recurrent neural network",
+    "id": "2502.01654v1",
+    "published": "2025-01-30",
+    "pdf": "https://arxiv.org/pdf/2502.01654v1",
+    "authors": [
+      "Iat Hang Fong",
+      "Tengyue Li",
+      "Simon Fong",
+      "Raymond K. Wong",
+      "Antonio J. Tall\u00f3n-Ballesteros"
+    ]
+  },
+  {
+    "query": "orthogonal perturbation neural network ensemble",
+    "title": "Masked Conditional Neural Networks for Audio Classification",
+    "id": "1803.02421v2",
+    "published": "2018-03-06",
+    "pdf": "https://arxiv.org/pdf/1803.02421v2",
+    "authors": [
+      "Fady Medhat",
+      "David Chesmore",
+      "John Robinson"
+    ]
+  },
+  {
+    "query": "orthogonal perturbation neural network ensemble",
+    "title": "A Neural Network Perturbation Theory Based on the Born Series",
+    "id": "2009.03192v2",
+    "published": "2020-09-07",
+    "pdf": "https://arxiv.org/pdf/2009.03192v2",
+    "authors": [
+      "Bastian Kaspschak",
+      "Ulf-G. Mei\u00dfner"
+    ]
+  },
+  {
+    "query": "orthogonal perturbation neural network ensemble",
+    "title": "Region Ensemble Network: Improving Convolutional Network for Hand Pose Estimation",
+    "id": "1702.02447v2",
+    "published": "2017-02-08",
+    "pdf": "https://arxiv.org/pdf/1702.02447v2",
+    "authors": [
+      "Hengkai Guo",
+      "Guijin Wang",
+      "Xinghao Chen",
+      "Cairong Zhang",
+      "Fei Qiao",
+      "Huazhong Yang"
+    ]
+  },
+  {
+    "query": "subnetwork ensemble bayesian",
+    "title": "Sequential Bayesian Neural Subnetwork Ensembles",
+    "id": "2206.00794v2",
+    "published": "2022-06-01",
+    "pdf": "https://arxiv.org/pdf/2206.00794v2",
+    "authors": [
+      "Sanket Jantre",
+      "Shrijita Bhattacharya",
+      "Nathan M. Urban",
+      "Byung-Jun Yoon",
+      "Tapabrata Maiti",
+      "Prasanna Balaprakash",
+      "Sandeep Madireddy"
+    ]
+  },
+  {
+    "query": "subnetwork ensemble bayesian",
+    "title": "Bayesian Nonparametric Weighted Sampling Inference",
+    "id": "1309.1799v4",
+    "published": "2013-09-07",
+    "pdf": "https://arxiv.org/pdf/1309.1799v4",
+    "authors": [
+      "Yajuan Si",
+      "Natesh S. Pillai",
+      "Andrew Gelman"
+    ]
+  },
+  {
+    "query": "subnetwork ensemble bayesian",
+    "title": "Bayesian Variable Selection and Estimation for Group Lasso",
+    "id": "1512.01013v1",
+    "published": "2015-12-03",
+    "pdf": "https://arxiv.org/pdf/1512.01013v1",
+    "authors": [
+      "Xiaofan Xu",
+      "Malay Ghosh"
+    ]
+  },
+  {
+    "query": "subnetwork ensemble bayesian",
+    "title": "Smoothing and mean-covariance estimation of functional data with a Bayesian hierarchical model",
+    "id": "1402.5723v5",
+    "published": "2014-02-24",
+    "pdf": "https://arxiv.org/pdf/1402.5723v5",
+    "authors": [
+      "Jingjing Yang",
+      "Hongxiao Zhu",
+      "Taeryon Choi",
+      "Dennis D. Cox"
+    ]
+  },
+  {
+    "query": "subnetwork ensemble bayesian",
+    "title": "Posterior Belief Assessment: Extracting Meaningful Subjective Judgements from Bayesian Analyses with Complex Statistical Models",
+    "id": "1512.00969v1",
+    "published": "2015-12-03",
+    "pdf": "https://arxiv.org/pdf/1512.00969v1",
+    "authors": [
+      "Daniel Williamson",
+      "Michael Goldstein"
+    ]
+  },
+  {
+    "query": "subnetwork ensemble bayesian",
+    "title": "Sequential Bayesian Model Selection of Regular Vine Copulas",
+    "id": "1512.00976v1",
+    "published": "2015-12-03",
+    "pdf": "https://arxiv.org/pdf/1512.00976v1",
+    "authors": [
+      "Lutz Gruber",
+      "Claudia Czado"
+    ]
+  },
+  {
+    "query": "subnetwork ensemble bayesian",
+    "title": "Rejoinder for the discussion of the paper \"A novel algorithmic approach to Bayesian Logic Regression\"",
+    "id": "2005.00605v1",
+    "published": "2020-05-01",
+    "pdf": "https://arxiv.org/pdf/2005.00605v1",
+    "authors": [
+      "Aliaksandr Hubin",
+      "Geir Storvik",
+      "Florian Frommlet"
+    ]
+  },
+  {
+    "query": "subnetwork ensemble bayesian",
+    "title": "Bayesian Model Selection Based on Proper Scoring Rules",
+    "id": "1409.5291v2",
+    "published": "2014-09-18",
+    "pdf": "https://arxiv.org/pdf/1409.5291v2",
+    "authors": [
+      "A. Philip Dawid",
+      "Monica Musio"
+    ]
+  },
+  {
+    "query": "diversity ensemble robustness neural networks",
+    "title": "Continual Learning for Recurrent Neural Networks: an Empirical Evaluation",
+    "id": "2103.07492v4",
+    "published": "2021-03-12",
+    "pdf": "https://arxiv.org/pdf/2103.07492v4",
+    "authors": [
+      "Andrea Cossu",
+      "Antonio Carta",
+      "Vincenzo Lomonaco",
+      "Davide Bacciu"
+    ]
+  },
+  {
+    "query": "diversity ensemble robustness neural networks",
+    "title": "Towards Dropout Training for Convolutional Neural Networks",
+    "id": "1512.00242v1",
+    "published": "2015-12-01",
+    "pdf": "https://arxiv.org/pdf/1512.00242v1",
+    "authors": [
+      "Haibing Wu",
+      "Xiaodong Gu"
+    ]
+  }
+]

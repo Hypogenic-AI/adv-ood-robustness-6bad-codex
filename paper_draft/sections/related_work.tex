@@ -1,0 +1,10 @@
+\section{Related Work}
+\label{sec:related_work}
+
+\para{{\bf perturbation and thicket ensembles.}} Parameter-space perturbation ensembles provide a compute-efficient alternative to training independent models. PEP showed that perturbing a reference model can recover part of deep-ensemble benefits at lower cost \citep{mehrtash2020pep}. Neural Thickets extended this direction by arguing that many useful experts are dense around pretrained weights \citep{gan2026neuralthickets}. Our work is aligned with this line, but we focus specifically on robustness stress tests rather than general task transfer.
+
+\para{{\bf adversarial robustness in ensembles.}} Ensemble-based defenses have a long history in adversarial machine learning. Ensemble adversarial training improves transfer robustness by exposing models to attacks from multiple sources \citep{tramer2018ensemble}. Certification work also shows that ensemble aggregation can strengthen formal guarantees under some conditions \citep{ahmad2020certifying,zhang2019certifiable}. Unlike these approaches, we do not retrain robust models or optimize certification objectives; we isolate post-hoc perturbation direction effects around one pretrained checkpoint.
+
+\para{{\bf OOD uncertainty and diversity.}} Deep ensembles are strong uncertainty baselines for calibration and OOD detection \citep{lakshminarayanan2017deep}. Later OOD studies emphasized architecture and training protocol choices, including leave-out designs and shared-parameter ensembles \citep{vyas2018ood,chen2022batchensemble}. Direct analysis of diversity metrics shows that more disagreement is not always better for OOD detection \citep{xia2022usefulness}. Our findings are consistent with this cautionary view: high disagreement from adversarial-direction perturbations did not translate into better OOD AUROC.
+
+\para{{\bf positioning.}} Compared with prior work, our contribution is a controlled four-way comparison \texttt{single}, \texttt{random}, \texttt{orthogonal}, and \texttt{adversarial} under matched model, data, and compute budget, with bootstrap inference for key robustness claims.

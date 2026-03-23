@@ -1,0 +1,6 @@
+\section{Conclusion}
+\label{sec:conclusion}
+
+We presented a controlled benchmark of perturbation-based neural thicket ensembles for adversarial and OOD robustness on CIFAR-10/SVHN. Under matched architecture and budget, random perturbation ensembling provided a statistically significant but modest gain at the strongest attack level tested (PGD@8/255), while reducing clean accuracy. Orthogonal direction design did not significantly improve over random, and adversarial-direction perturbations degraded calibration and robustness despite much higher disagreement.
+
+The main takeaway is simple: perturbation ensembling can help at the margin, but diversity magnitude alone is not a reliable path to robust performance. Future work should combine perturbation ensembling with robust base training, sweep perturbation scale and ensemble size, and optimize direction generation with explicit clean-calibration constraints and robustness-aware objectives.

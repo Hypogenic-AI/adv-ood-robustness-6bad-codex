@@ -1,0 +1,12 @@
+# Exclude all data files (can be large)
+*
+
+# Keep documentation and lightweight reproducibility artifacts
+!.gitignore
+!README.md
+!**/README.md
+!**/samples/
+!**/samples.json
+!**/download.sh
+!**/download_instructions.txt
+!dataset_summary.json

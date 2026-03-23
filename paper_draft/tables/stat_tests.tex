@@ -1,0 +1,17 @@
+\begin{table}[t]
+\centering
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{@{}lccc@{}}
+\toprule
+Comparison (difference) & Estimate & 95\% CI & $p$-value \\
+\midrule
+PGD@8/255: Random $-$ Single & +0.0045 & [+0.0015, +0.0080] & 0.004 \\
+PGD@8/255: Orthogonal $-$ Random & +0.0010 & [-0.0020, +0.0040] & 0.599 \\
+PGD@8/255: Adversarial $-$ Random & -0.0050 & [-0.0085, -0.0020] & $<0.001$ \\
+Clean Acc: Random $-$ Single & -0.0129 & [-0.0172, -0.0086] & $<0.001$ \\
+\bottomrule
+\end{tabular}%
+}
+\caption{Bootstrap results for primary hypotheses. Differences are reported in absolute proportion units.}
+\label{tab:stats}
+\end{table}

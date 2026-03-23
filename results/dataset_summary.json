@@ -1,0 +1,56 @@
+{
+  "cifar10_train": {
+    "name": "cifar10_train",
+    "size": 50000,
+    "missing_labels": 0,
+    "class_distribution": {
+      "0": 5000,
+      "1": 5000,
+      "2": 5000,
+      "3": 5000,
+      "4": 5000,
+      "5": 5000,
+      "6": 5000,
+      "7": 5000,
+      "8": 5000,
+      "9": 5000
+    },
+    "duplicate_estimate": 0
+  },
+  "cifar10_test": {
+    "name": "cifar10_test",
+    "size": 10000,
+    "missing_labels": 0,
+    "class_distribution": {
+      "0": 1000,
+      "1": 1000,
+      "2": 1000,
+      "3": 1000,
+      "4": 1000,
+      "5": 1000,
+      "6": 1000,
+      "7": 1000,
+      "8": 1000,
+      "9": 1000
+    },
+    "duplicate_estimate": 0
+  },
+  "svhn_test": {
+    "name": "svhn_test",
+    "size": 26032,
+    "missing_labels": 0,
+    "class_distribution": {
+      "0": 1744,
+      "1": 5099,
+      "2": 4149,
+      "3": 2882,
+      "4": 2523,
+      "5": 2384,
+      "6": 1977,
+      "7": 2019,
+      "8": 1660,
+      "9": 1595
+    },
+    "duplicate_estimate": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "cifar10_train_examples": [
+    {
+      "idx": 0,
+      "label": 0
+    },
+    {
+      "idx": 1,
+      "label": 6
+    },
+    {
+      "idx": 2,
+      "label": 0
+    }
+  ],
+  "svhn_test_examples": [
+    {
+      "idx": 0,
+      "label": 5
+    },
+    {
+      "idx": 1,
+      "label": 2
+    },
+    {
+      "idx": 2,
+      "label": 1
+    }
+  ]
+}
